@@ -111,7 +111,7 @@ jobs:
 
           tags: ghcr.io/juliorm9/tos:latest
 
-deploy:
+  deploy:
 
     needs: verify-and-package
 
